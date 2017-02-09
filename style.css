@@ -1,0 +1,129 @@
+  html {
+  background-color: black;
+  color: white;
+  user-select: none;
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+}
+h1 {
+  letter-spacing: .7em;
+}
+
+.subheading {
+  font-weight: 100;
+  letter-spacing: -.05em;
+}
+
+.nav {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: white;
+  width: 25%;
+  float: left;
+  height: 80%;
+  margin: 0px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.nav:hover{
+  background-color: grey;
+}
+
+.nav-left {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.nav-right {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.fullht {
+  height: 100%;
+}
+
+.white {
+  color: white !important;
+}
+
+.black {
+  color: black !important;
+}
+
+.cover {
+  height:  30%;
+  width: auto;
+  padding-bottom: 1%;
+  margin: 2px;
+}
+
+#header {
+  /*background-color: pink;*/
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
+
+#wrapper{
+	width: 80%;
+	margin: auto;
+}
+
+#content-body{
+	width: 100%;
+}
+
+#navbar {
+  background-color: #FCFCFC;
+  border-radius: 20px;
+  /*background-color: grey;*/
+  height:40px;
+  width: 100%;
+  text-align: center;
+  padding-top: 0;
+}
+
+#content {
+  /*background-color: red;*/
+  margin-top: 20px;
+  height:500px;
+}
+
+#txtbx {
+  background-color: #FCFCFC;
+  border-radius: 20px;
+  /*background-color: blue;*/
+  width: 73%;
+  height: 100%;
+  margin-right: 2%;
+  float: left;
+  padding: 1%;
+}
+
+#imgs {
+  background-color: #FCFCFC;
+  border-radius: 20px;
+  padding: 1%;
+  /*background-color: green;*/
+  padding-left: 5%;
+  height: 100%;
+  width: 15%;
+  float:right;
+}
+
+#footer {
+  background-color: #FCFCFC;
+  /*background-color: yellow;*/
+  border-radius: 20px;
+  margin-top: 4%;
+  height: 100px;
+  padding: 1%;
+}
